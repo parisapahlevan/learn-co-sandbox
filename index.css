@@ -1,0 +1,33 @@
+header {
+  background: green;
+  width:400px;
+  min-width: 50%;
+  position:fixed;
+}
+nav {
+ background: purple; 
+}
+article{
+  background: orange;
+  float:left;
+  
+}
+ aside{
+ background: blue;  
+ }
+ 
+ footer{
+   clear:left;
+ }
+ article p {
+  column-count: 1; /* This is the default so we don't really need to specify */
+}
+article p {
+  column-count: 1; /* This is the default so we don't really need to specify */
+}
+ 
+@media only screen and (min-width: 480px) {
+  article p {
+    column-count: 2;  
+  }
+}
